@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Windows/Desktop/web
+# Install script for directory: C:/Users/tomas/Documents/Personal/UAI/Year_4/2_Semestre/TID/wifi
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +34,12 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/Windows/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/tomas/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Windows/Desktop/web/build/esp-idf/cmake_install.cmake")
+  include("C:/Users/tomas/Documents/Personal/UAI/Year_4/2_Semestre/TID/wifi/build/esp-idf/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Windows/Desktop/web/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/tomas/Documents/Personal/UAI/Year_4/2_Semestre/TID/wifi/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

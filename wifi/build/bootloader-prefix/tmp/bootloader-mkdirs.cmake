@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "C:/Users/Windows/esp/esp-idf/components/bootloader/subproject"
-  "C:/Users/Windows/Desktop/web/build/bootloader"
-  "C:/Users/Windows/Desktop/web/build/bootloader-prefix"
-  "C:/Users/Windows/Desktop/web/build/bootloader-prefix/tmp"
-  "C:/Users/Windows/Desktop/web/build/bootloader-prefix/src/bootloader-stamp"
-  "C:/Users/Windows/Desktop/web/build/bootloader-prefix/src"
-  "C:/Users/Windows/Desktop/web/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/tomas/esp/esp-idf/components/bootloader/subproject"
+  "C:/Users/tomas/Documents/Personal/UAI/Year_4/2_Semestre/TID/wifi/build/bootloader"
+  "C:/Users/tomas/Documents/Personal/UAI/Year_4/2_Semestre/TID/wifi/build/bootloader-prefix"
+  "C:/Users/tomas/Documents/Personal/UAI/Year_4/2_Semestre/TID/wifi/build/bootloader-prefix/tmp"
+  "C:/Users/tomas/Documents/Personal/UAI/Year_4/2_Semestre/TID/wifi/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/tomas/Documents/Personal/UAI/Year_4/2_Semestre/TID/wifi/build/bootloader-prefix/src"
+  "C:/Users/tomas/Documents/Personal/UAI/Year_4/2_Semestre/TID/wifi/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/Windows/Desktop/web/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/tomas/Documents/Personal/UAI/Year_4/2_Semestre/TID/wifi/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/Windows/Desktop/web/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/Users/tomas/Documents/Personal/UAI/Year_4/2_Semestre/TID/wifi/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

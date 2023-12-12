@@ -1,4 +1,4 @@
-/* * Data converted from C:/Users/Windows/Desktop/web/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from C:/Users/tomas/Documents/Personal/UAI/Year_4/2_Semestre/TID/wifi/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded
